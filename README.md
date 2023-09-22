@@ -1,4 +1,6 @@
 ---
+Fork of Cordova-plugin-media-capture 4.0 to work with Cordova@10 + Android SDK 13.
+
 title: Media Capture
 description: Capture audio, video, and images.
 ---
