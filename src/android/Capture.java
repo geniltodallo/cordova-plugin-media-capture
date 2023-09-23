@@ -474,8 +474,7 @@ public class Capture extends CordovaPlugin {
             pm = (PluginManager) gpm.invoke(webView);
         } catch (NoSuchMethodException e) {
         } catch (IllegalAccessException e) {
-        } catch (InvocationTargetException e) {
-        }
+        } 
         if (pm == null) {
             try {
                 Field pmf = webViewClass.getField("pluginManager");
